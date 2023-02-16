@@ -35,7 +35,7 @@ code {
   text-decoration: line-through;
 }
 
-.lds-ring {
+.loader {
   display: inline-block;
   position: relative;
   width: 80px;
