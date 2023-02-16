@@ -14,12 +14,8 @@
     width: 400px;
     height: 200px;
     border-radius: 5px;
-    background: #FFE4E1 ;
+    background: #f0f8ff;
     padding: 2rem;
-}
-
-.modal-title {
-    text-align: center;
 }
 
 .modal-text {

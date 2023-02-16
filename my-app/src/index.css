@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: 		#FFE4E1;
+  background-color: 	#f0f8ff;
 }
 
 code {
@@ -22,10 +22,11 @@ code {
 
 .title {
     text-align: center;
+    color: #708090;
   }
 
 .removeTodoButton {
-  background: #f00;
+  background: #708090;
   border-radius: 50%;
   color: #fff;
   border: none;
@@ -42,16 +43,16 @@ code {
   height: 80px;
 }
 .loader div {
-  box-sizing: border-box;
   display: block;
   position: absolute;
+  box-sizing: border-box;
   width: 54px;
   height: 54px;
   margin: 8px;
   border: 6px solid #FFE5B4;
   border-radius: 50%;
-  animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color:	#C0C0C0 transparent transparent transparent;
+  animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
 }
 .loader div:nth-child(1) {
   animation-delay: -0.45s;

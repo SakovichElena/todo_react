@@ -10,6 +10,7 @@ const styles = {
         height: "50px",
         marginBottom: ".5rem",
         padding: ".5rem 1rem",
+        backgroundColor: "#fff",
         border: "1px solid #ccc",
         borderRadius: "4px"
     }, 

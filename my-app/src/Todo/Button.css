@@ -1,6 +1,7 @@
-.openModalButton {
+.openModalButton, .addTodoButton {
+    margin-top: 10px;
     margin-bottom: 12px;
-    margin-left: 14px;
+    margin-left: 16px;
 }
 
 .closeModalButton {
@@ -9,21 +10,22 @@
     margin-left: 132px;
 }
 
-.addTodoButton {
-    margin-left: 16px;
-  }
-
 .addTodoButton, .openModalButton,  .closeModalButton  {
     width: 140px;
     height: 32px;
     font-size: 14px;
-    background-color: #d598a3;
+    background-color: #abcdef;
     border: none;
     border-radius: 10px;
     cursor: pointer;
   }
 
   .addTodoButton:hover, .openModalButton:hover, .closeModalButton:hover {
+    background-color: #9ec0e1;
     box-shadow: 5px 5px 5px #ccc;
     transition: color .3s ease 0s;
+  }
+
+  .addTodoButton:active, .openModalButton:active, .closeModalButton:active {
+    background-color: #84a6c7;
   }
